@@ -1,0 +1,20 @@
+.btn-select-valor{
+    width: 100%;
+background: #8A5BB6;
+color: #fff;
+display: inline-flex;
+align-items: center; /* Centrar el signo vertical */
+justify-content: center; /* Centrar horizontal */
+
+
+text-align: center;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+transition: all .3s ease;
+}
+btn-select-valor:hover {
+  background: #866FFD    ;
+}
+
+

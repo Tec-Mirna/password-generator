@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@700&family=Roboto+Mono:ital,wght@1,100&display=swap');
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+}
+
+body{
+  background: #434242;  /* fallback for old browsers */
+
+  color: #fff;
+}
+
+/* Estlos para el título */
+h1{
+  margin-bottom: 40px;
+  font-size: 45px;
+  font-family: "Roboto Mono", monospace;
+ text-decoration: underline;
+}
+
+
+.contenedor{
+  max-width: 500px;
+  width: 90%; /* Ancho */
+  margin: 36px auto; /* Arriba y abajo ---izquierda y derecha */
+}
+.filas{
+  margin-bottom: 37px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 10px;
+}
+label{
+   line-height: 40px;
+}
+
+/* estilo para el boton de incremento y decremento */
+.botones-cont{
+  
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+} 
+div > * {
+  flex: 1;
+} 
+span {
+    line-height: 40px;
+    background: #178DC0;
+    border-radius: 4px;
+}
+
+
+input{
+  text-align: center;
+  border: none;
+}
+
+
+
